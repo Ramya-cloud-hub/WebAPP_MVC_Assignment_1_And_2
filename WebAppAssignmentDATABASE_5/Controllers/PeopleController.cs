@@ -56,6 +56,7 @@ namespace WebAppAssignmentDATABASE_5.Controllers
 
             if (ModelState.IsValid)
             {
+                 
 
                 newPersonModel.PersonName = personViewModel.PersonName;
                 newPersonModel.PersonPhoneNumber = personViewModel.PersonPhoneNumber;
